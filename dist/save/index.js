@@ -2723,7 +2723,9 @@ const constants_1 = __webpack_require__(694);
 const tar_1 = __webpack_require__(943);
 const utils = __importStar(__webpack_require__(443));
 function run() {
+    console.log("momomo\n");
     return __awaiter(this, void 0, void 0, function* () {
+        console.log("nononono\n");
         try {
             if (!utils.isValidEvent()) {
                 utils.logWarning(`Event Validation Error: The event type ${process.env[constants_1.Events.Key]} is not supported. Only ${utils
